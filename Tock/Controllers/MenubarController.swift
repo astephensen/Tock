@@ -48,7 +48,7 @@ class MenubarController: NSObject, NSPopoverDelegate {
         popover?.contentViewController = viewController
         popover?.appearance = NSAppearance(named: NSAppearanceNameAqua)
         popover?.showRelativeToRect(statusItemButton.frame, ofView: statusItemButton.superview!, preferredEdge: NSMaxYEdge)
-        popover?.contentSize = NSSize(width: 590.0, height: 430.0)
+        popover?.contentSize = NSSize(width: 590.0, height: 500.0)
         
         // We need to make the application active so the popover is in control.
         NSApplication.sharedApplication().activateIgnoringOtherApps(true)
